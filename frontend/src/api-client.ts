@@ -2,7 +2,7 @@ import { RegisterFormData } from "./pages/Register";
 import { SignInFormData } from "./pages/SignIn";
 import { BookingFormData } from "./forms/BookingForm/BookingForm";
 import {HotelSearchResponse, HotelType, UserType, PaymentIntentResponse} from "../../backend/src/shared/types"
-import App from "./App";
+
 
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "";
