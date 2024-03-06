@@ -152,7 +152,7 @@ router.post("/:hotelId/bookings",verifyToken,async(req:Request,res:Response)=>{
 
     const hotel = await Hotel.findOneAndUpdate({_id:req.params.hotelId},
       {
-        $push:{booking:newBooking},
+        $push:{bookings:newBooking},
       });
 
       if(!hotel){
